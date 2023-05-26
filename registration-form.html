@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - stay in the loop for all good things | australia's premier toy store </title>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto'); 
+
+    *{
+        padding:0; 
+        margin:0; 
+        font-family:"Roboto", sans-serif;
+    }
+    html, body{
+        padding:0;
+        margin:0; 
+        height:100%; 
+    }
+    #registration-form{
+        height:100%;
+        background-color:deepskyblue; 
+        display:flex; 
+        justify-content:center; 
+        align-items:center; 
+        overflow:scroll; 
+    }
+    .rego-form{
+        flex:1; 
+        max-width:600px; 
+        background-color: #fff; 
+    }
+    .form-header{
+        padding:12px 0px; 
+        border-bottom:thin solid #ccc; 
+        background-color:#333; 
+    }
+    .form-header h1{
+        font-size:30px; 
+        text-align:center; 
+        color:#fff; 
+    }
+    .row{
+        display:flex; 
+        flex-direction:row; 
+    }
+    .input-group{
+        flex:1; 
+        display:flex; 
+        flex-direction:column; 
+        margin:10px 15px;  
+    }
+    label{
+        color:grey;
+        font-size:16px; 
+        font-weight:600; 
+    }
+    input[type="text"], 
+    input[type="email"], 
+    input[type="password"]{
+        font-size:18px; 
+        height:35px; 
+        padding:0 10px; 
+        color:#666; 
+        border: thin solid #d6d6d6; 
+        border-radius:5px;
+        background-color:#fff;  
+        outline:none; 
+    }
+    .form-body{
+        background:#fff; 
+    }
+    @media only screen and (max-width: 500px){
+        .row{
+            flex-direction: column; 
+        }
+    }
+</style>
+</head>
+<body>
+    <section id="registration-form">
+            <form class="rego-form">
+                <header class="form-header">
+                    <h1>Registration Form</h1>
+                </header>
+
+                <div class="form-body">
+                    <div class="row">
+                        <div class="input-group">
+                            <label>First Name</label>
+                            <input type="text" placeholder="Enter First Name">
+                        </div>
+
+                        <div class="input-group">
+                            <label>Last Name</label>
+                            <input type="text" placeholder="Enter Last Name">
+                        </div>
+                    </div>
+
+                        <!-- Email -->
+                        <div class="row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="Enter email address">
+                            </div>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="row">
+                            <div class="input-group">
+                                <label>Password</label>
+                                <input type="password" placeholder="Enter a password">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-group">
+                                <label>Confirm Password</label>
+                                <input type="password" placeholder="Confirm password">
+                            </div>
+                        </div>
+
+                </div>
+            </form>
+    </section>
+</body>
+</html>

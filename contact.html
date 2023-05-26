@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <form action="mail:jordannmosborn@gmail.com" methon="GET"> 
+
+        <label for="fn">First Name</label>
+        <input type="text" id="fn" name="fn">
+
+        <br>
+        <label>Gender</label><br>
+        <input type="radio" name="gender">M<br>
+        <input type="radio" name="gender">F<br>
+        <input type="radio" name="gender">O<br>
+
+        <br>
+        <label>Units Enrolled In</label><br>
+        <input type="checkbox" value="math">Math<br>
+        <input type="checkbox" value="chemistry">Chemistry<br>
+        <input type="checkbox" value="physics">Physics<br>
+        <input type="checkbox" value="engineering">Engineering<br>
+
+        <fieldset>
+            <legend>State</legend>
+            <select>
+                <option value="nsw">NSW</option>
+                <option value="vic">VIC</option>
+                <option value="qld">QLS</option>
+                <option value="wa">WA</option>
+                <option value="tas">TAS</option>
+                <option value="sa">SA</option>
+                <option value="act">ACT</option>
+                <option value="nt">NT</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Leave us a comment</legend>
+            <textarea cols="60" rows="10"></textarea>
+        </fieldset>
+
+        Email: <input type="email" name="email-address" required> <br>
+        Favourite color: <input type="color">
+        Upload file: <input type="file">
+        <p>
+        <input type="submit" value="Send now">
+        </p>
+    </form>
+</body>
+</html>

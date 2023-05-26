@@ -1,0 +1,26 @@
+body{
+    background-color: skyblue; 
+}
+.container{ 
+    background-color: dodgerblue; 
+    display: flex; 
+    height: 400px; 
+    /*flex-direction: row-reverse;*/
+    /*flex-wrap: wrap; */
+    justify-content:space-evenly;  
+    align-items:baseline; 
+    align-content:flex-start; 
+}
+.item{
+    background-color: pink; 
+    padding: 20px;
+    margin:1px; 
+    flex-grow:1; 
+}
+.diff{
+    order:-1; 
+    background-color: magenta; 
+    padding: 30px; 
+    color: white; 
+    width:200px; 
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Using Tables</title>
+    <style> 
+        table{ 
+            width: 100%; 
+        }
+        table, th, td {
+            border: 1px solid red; 
+            border-collapse: collapse; 
+            border-radius: 20px; 
+        }
+        th, td{
+            background-color: lightblue; 
+        }
+        tr:nth-child(even) th:nth-child(even){
+            background-color: yellow; 
+        }
+        h1:first-letter{ 
+            color: pink; 
+        }
+            
+    </style>
+    </head>
+    <body>
+        <h1>Understanding tables</h1>
+        <table>
+            <colgroup>
+                <col span="2" style="background-color: orange;">
+            </colgroup>
+            <tr>
+                <th>Company name</th>
+                <th>Address</th>
+                <th>URL</th>
+            </tr>
+            <tr>
+                <td>johnson and johnson</td>
+                <td>123 John street lidcome</td>
+                <td>www.johnsonandjohnson.com.au</td>
+            </tr>
+            <tr>
+                <td>johnson and johnson</td>
+                <td>123 John street lidcome</td>
+                <td>www.johnsonandjohnson.com.au</td>
+            </tr>
+            <tr>
+                <td>johnson and johnson</td>
+                <td>123 John street lidcome</td>
+                <td>www.johnsonandjohnson.com.au</td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Box Models </title>
+    <style>
+    :root{
+        --primary-bg-color: blue; 
+        --secondary-bg-color: lightblue; 
+    }
+    .messageBox {
+        background-color: var(--primary-bg-color); 
+        width: 300px;
+        padding: 20px; 
+        border: 5px solid var(--secondary-bg-color); 
+        box-sizing: border-box;
+    }
+    </style>
+    </head>
+    <body>
+        <div class=".messageBox">ABC</div>
+    </body>
+</html>
